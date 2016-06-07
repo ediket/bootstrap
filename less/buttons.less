@@ -64,7 +64,7 @@
 // --------------------------------------------------
 
 .btn-default {
-  .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+  .button-reverse-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
 }
 .btn-primary {
   .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
@@ -75,7 +75,7 @@
 }
 // Info appears as blue-green
 .btn-info {
-  .button-variant(@btn-info-color; @btn-info-bg; @btn-info-border);
+  .button-reverse-variant(@btn-info-color; @btn-info-bg; @btn-info-border);
 }
 // Warning appears as orange
 .btn-warning {
@@ -84,6 +84,14 @@
 // Danger and error appear as red
 .btn-danger {
   .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+}
+// Facebook
+.btn-fb {
+  .button-variant(@btn-fb-color; @btn-fb-bg; @btn-fb-border);
+}
+// Auth and email
+.btn-auth {
+  .button-variant(@btn-auth-color; @btn-auth-bg; @btn-auth-border);
 }
 
 
