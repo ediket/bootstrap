@@ -143,7 +143,7 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@line-height-base">@line-height-base</label>
-    <input class="form-control" id="input-@line-height-base" type="text" aria-describedby="help-block-@line-height-base" value="1" data-var="@line-height-base"/>
+    <input class="form-control" id="input-@line-height-base" type="text" aria-describedby="help-block-@line-height-base" value="1.428571429" data-var="@line-height-base"/>
     <p class="help-block" id="help-block-@line-height-base">Unit-less <code>line-height</code> for use in components like buttons.</p>
   </div>
   <div class="col-xs-4">
@@ -229,12 +229,12 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@line-height-large">@line-height-large</label>
-    <input class="form-control" id="input-@line-height-large" type="text" value="1" data-var="@line-height-large"/>
+    <input class="form-control" id="input-@line-height-large" type="text" value="1.3333333" data-var="@line-height-large"/>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@line-height-small">@line-height-small</label>
-    <input class="form-control" id="input-@line-height-small" type="text" value="1" data-var="@line-height-small"/>
+    <input class="form-control" id="input-@line-height-small" type="text" value="1.5" data-var="@line-height-small"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@border-radius-base">@border-radius-base</label>
@@ -428,16 +428,72 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-border-radius-base">@btn-border-radius-base</label>
-    <input class="form-control" id="input-@btn-border-radius-base" type="text" value="@border-radius-base" data-var="@btn-border-radius-base"/>
+    <input class="form-control" id="input-@btn-border-radius-base" type="text" value="(2 + @border-radius-base)" data-var="@btn-border-radius-base"/>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-border-radius-large">@btn-border-radius-large</label>
-    <input class="form-control" id="input-@btn-border-radius-large" type="text" value="@border-radius-large" data-var="@btn-border-radius-large"/>
+    <input class="form-control" id="input-@btn-border-radius-large" type="text" value="(2 + @border-radius-large)" data-var="@btn-border-radius-large"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-border-radius-small">@btn-border-radius-small</label>
-    <input class="form-control" id="input-@btn-border-radius-small" type="text" value="@border-radius-small" data-var="@btn-border-radius-small"/>
+    <input class="form-control" id="input-@btn-border-radius-small" type="text" value="(2 + @border-radius-small)" data-var="@btn-border-radius-small"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@btn-border-radius-base">@btn-border-radius-base</label>
+    <input class="form-control" id="input-@btn-border-radius-base" type="text" value="(2 + @border-radius-base)" data-var="@btn-border-radius-base"/>
+  </div>
+  <div class="clearfix"></div>
+  <div class="col-xs-4">
+    <label for="input-@btn-border-radius-large">@btn-border-radius-large</label>
+    <input class="form-control" id="input-@btn-border-radius-large" type="text" value="(2 + @border-radius-large)" data-var="@btn-border-radius-large"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@btn-border-radius-small">@btn-border-radius-small</label>
+    <input class="form-control" id="input-@btn-border-radius-small" type="text" value="(2 + @border-radius-small)" data-var="@btn-border-radius-small"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@btn-padding-base-vertical">@btn-padding-base-vertical</label>
+    <input class="form-control" id="input-@btn-padding-base-vertical" type="text" value="(@padding-base-vertical - 2)" data-var="@btn-padding-base-vertical"/>
+  </div>
+  <div class="clearfix"></div>
+  <div class="col-xs-4">
+    <label for="input-@btn-padding-base-horizontal">@btn-padding-base-horizontal</label>
+    <input class="form-control" id="input-@btn-padding-base-horizontal" type="text" value="(@padding-base-horizontal - 2)" data-var="@btn-padding-base-horizontal"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@btn-font-size-base">@btn-font-size-base</label>
+    <input class="form-control" id="input-@btn-font-size-base" type="text" value="(@font-size-base - 2)" data-var="@btn-font-size-base"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@btn-line-height-base">@btn-line-height-base</label>
+    <input class="form-control" id="input-@btn-line-height-base" type="text" value="1" data-var="@btn-line-height-base"/>
+  </div>
+  <div class="clearfix"></div>
+  <div class="col-xs-4">
+    <label for="input-@padding-large-vertical">@padding-large-vertical</label>
+    <input class="form-control" id="input-@padding-large-vertical" type="text" value="15px" data-var="@padding-large-vertical"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@padding-large-horizontal">@padding-large-horizontal</label>
+    <input class="form-control" id="input-@padding-large-horizontal" type="text" value="21px" data-var="@padding-large-horizontal"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@btn-padding-large-vertical">@btn-padding-large-vertical</label>
+    <input class="form-control" id="input-@btn-padding-large-vertical" type="text" value="(@padding-large-vertical + 1)" data-var="@btn-padding-large-vertical"/>
+  </div>
+  <div class="clearfix"></div>
+  <div class="col-xs-4">
+    <label for="input-@btn-padding-large-horizontal">@btn-padding-large-horizontal</label>
+    <input class="form-control" id="input-@btn-padding-large-horizontal" type="text" value="(@padding-large-horizontal + 3)" data-var="@btn-padding-large-horizontal"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@btn-font-size-large">@btn-font-size-large</label>
+    <input class="form-control" id="input-@btn-font-size-large" type="text" value="(@font-size-large - 3)" data-var="@btn-font-size-large"/>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@btn-line-height-large">@btn-line-height-large</label>
+    <input class="form-control" id="input-@btn-line-height-large" type="text" value="@btn-line-height-base" data-var="@btn-line-height-large"/>
   </div>
 </div>
 <h2 id="forms">Forms</h2>
@@ -465,18 +521,18 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@input-border-radius">@input-border-radius</label>
-    <input class="form-control" id="input-@input-border-radius" type="text" aria-describedby="help-block-@input-border-radius" value="@border-radius-base" data-var="@input-border-radius"/>
+    <input class="form-control" id="input-@input-border-radius" type="text" aria-describedby="help-block-@input-border-radius" value="(@border-radius-base + 4)" data-var="@input-border-radius"/>
     <p class="help-block" id="help-block-@input-border-radius">Default <code>.form-control</code> border radius</p>
   </div>
   <div class="col-xs-4">
     <label for="input-@input-border-radius-large">@input-border-radius-large</label>
-    <input class="form-control" id="input-@input-border-radius-large" type="text" aria-describedby="help-block-@input-border-radius-large" value="@border-radius-large" data-var="@input-border-radius-large"/>
+    <input class="form-control" id="input-@input-border-radius-large" type="text" aria-describedby="help-block-@input-border-radius-large" value="(@border-radius-large + 4)" data-var="@input-border-radius-large"/>
     <p class="help-block" id="help-block-@input-border-radius-large">Large <code>.form-control</code> border radius</p>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@input-border-radius-small">@input-border-radius-small</label>
-    <input class="form-control" id="input-@input-border-radius-small" type="text" aria-describedby="help-block-@input-border-radius-small" value="@border-radius-small" data-var="@input-border-radius-small"/>
+    <input class="form-control" id="input-@input-border-radius-small" type="text" aria-describedby="help-block-@input-border-radius-small" value="(@border-radius-small + 4)" data-var="@input-border-radius-small"/>
     <p class="help-block" id="help-block-@input-border-radius-small">Small <code>.form-control</code> border radius</p>
   </div>
   <div class="col-xs-4">
@@ -492,17 +548,17 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@input-height-base">@input-height-base</label>
-    <input class="form-control" id="input-@input-height-base" type="text" aria-describedby="help-block-@input-height-base" value="(@line-height-computed + (@padding-base-vertical * 2) + 2)" data-var="@input-height-base"/>
+    <input class="form-control" id="input-@input-height-base" type="text" aria-describedby="help-block-@input-height-base" value="(@line-height-computed + (@padding-base-vertical * 2) - 4)" data-var="@input-height-base"/>
     <p class="help-block" id="help-block-@input-height-base">Default <code>.form-control</code> height</p>
   </div>
   <div class="col-xs-4">
     <label for="input-@input-height-large">@input-height-large</label>
-    <input class="form-control" id="input-@input-height-large" type="text" aria-describedby="help-block-@input-height-large" value="(ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2)" data-var="@input-height-large"/>
+    <input class="form-control" id="input-@input-height-large" type="text" aria-describedby="help-block-@input-height-large" value="(ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) - 4)" data-var="@input-height-large"/>
     <p class="help-block" id="help-block-@input-height-large">Large <code>.form-control</code> height</p>
   </div>
   <div class="col-xs-4">
     <label for="input-@input-height-small">@input-height-small</label>
-    <input class="form-control" id="input-@input-height-small" type="text" aria-describedby="help-block-@input-height-small" value="(floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2)" data-var="@input-height-small"/>
+    <input class="form-control" id="input-@input-height-small" type="text" aria-describedby="help-block-@input-height-small" value="(floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) - 4)" data-var="@input-height-small"/>
     <p class="help-block" id="help-block-@input-height-small">Small <code>.form-control</code> height</p>
   </div>
   <div class="clearfix"></div>
