@@ -2500,7 +2500,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 21px;
-  font-size: 22.5px;
+  font-size: 19.5px;
   line-height: inherit;
   color: #333;
   border: 0;
@@ -2546,7 +2546,7 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 13px;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.42857143;
   color: #555;
 }
@@ -2555,7 +2555,7 @@ output {
   width: 100%;
   height: 41px;
   padding: 12px 18px;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.42857143;
   color: #555;
   background-color: #fff;
@@ -2592,7 +2592,7 @@ output {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   background-color: #eee;
-  opacity: 1;
+  opacity: .3;
 }
 .form-control[disabled],
 fieldset[disabled] .form-control {
@@ -2698,7 +2698,7 @@ fieldset[disabled] .checkbox label {
   cursor: not-allowed;
 }
 .form-control-static {
-  min-height: 36px;
+  min-height: 34px;
   padding-top: 13px;
   padding-bottom: 13px;
   margin-bottom: 0;
@@ -2711,7 +2711,7 @@ fieldset[disabled] .checkbox label {
 .input-sm {
   height: 25px;
   padding: 7px 8px;
-  font-size: 10px;
+  font-size: 8px;
   line-height: 1.5;
   border-radius: 6px;
 }
@@ -2726,7 +2726,7 @@ select[multiple].input-sm {
 .form-group-sm .form-control {
   height: 25px;
   padding: 7px 8px;
-  font-size: 10px;
+  font-size: 8px;
   line-height: 1.5;
   border-radius: 6px;
 }
@@ -2740,15 +2740,15 @@ select[multiple].input-sm {
 }
 .form-group-sm .form-control-static {
   height: 25px;
-  min-height: 31px;
+  min-height: 29px;
   padding: 8px 8px;
-  font-size: 10px;
+  font-size: 8px;
   line-height: 1.5;
 }
 .input-lg {
   height: 52px;
   padding: 15px 21px;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -2763,7 +2763,7 @@ select[multiple].input-lg {
 .form-group-lg .form-control {
   height: 52px;
   padding: 15px 21px;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -2777,9 +2777,9 @@ select[multiple].input-lg {
 }
 .form-group-lg .form-control-static {
   height: 52px;
-  min-height: 40px;
+  min-height: 38px;
   padding: 16px 21px;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.3333333;
 }
 .has-feedback {
@@ -2995,13 +2995,13 @@ select[multiple].input-lg {
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
     padding-top: 16px;
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 @media (min-width: 768px) {
   .form-horizontal .form-group-sm .control-label {
     padding-top: 8px;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 .btn {
@@ -3106,8 +3106,8 @@ fieldset[disabled] a.btn {
 .btn-default[disabled],
 fieldset[disabled] .btn-default {
   color: #333;
-  background-color: #ccc;
-  border-color: #999;
+  background-color: #808080;
+  border-color: #4d4d4d;
 }
 .btn-default.disabled:hover,
 .btn-default[disabled]:hover,
@@ -3119,8 +3119,8 @@ fieldset[disabled] .btn-default:focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
   color: #333;
-  background-color: #ccc;
-  border-color: #999;
+  background-color: #808080;
+  border-color: #4d4d4d;
 }
 .btn-default .badge {
   color: transparent;
@@ -3286,8 +3286,8 @@ fieldset[disabled] .btn-success.focus {
 .btn-info[disabled],
 fieldset[disabled] .btn-info {
   color: #e24e4d;
-  background-color: #fff;
-  border-color: #fffcfc;
+  background-color: #f7d1d1;
+  border-color: #e97a79;
 }
 .btn-info.disabled:hover,
 .btn-info[disabled]:hover,
@@ -3299,8 +3299,8 @@ fieldset[disabled] .btn-info:focus,
 .btn-info[disabled].focus,
 fieldset[disabled] .btn-info.focus {
   color: #e24e4d;
-  background-color: #fff;
-  border-color: #fffcfc;
+  background-color: #f7d1d1;
+  border-color: #e97a79;
 }
 .btn-info .badge {
   color: transparent;
@@ -3975,7 +3975,7 @@ tbody.collapse.in {
 .input-group-lg > .input-group-btn > .btn {
   height: 52px;
   padding: 15px 21px;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -3998,7 +3998,7 @@ select[multiple].input-group-lg > .input-group-btn > .btn {
 .input-group-sm > .input-group-btn > .btn {
   height: 25px;
   padding: 7px 8px;
-  font-size: 10px;
+  font-size: 8px;
   line-height: 1.5;
   border-radius: 6px;
 }
