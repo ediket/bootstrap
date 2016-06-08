@@ -2510,7 +2510,9 @@ label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: normal;
+  color: #777;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -3421,26 +3423,26 @@ fieldset[disabled] .btn-danger.focus {
 }
 .btn-fb {
   color: #fff;
-  background-color: #365899;
-  border-color: #365899;
+  background-color: #3866a0;
+  border-color: #3866a0;
 }
 .btn-fb:focus,
 .btn-fb.focus {
   color: #fff;
-  background-color: #294273;
-  border-color: #15223b;
+  background-color: #2b4e7a;
+  border-color: #172a42;
 }
 .btn-fb:hover {
   color: #fff;
-  background-color: #294273;
-  border-color: #263e6c;
+  background-color: #2b4e7a;
+  border-color: #284973;
 }
 .btn-fb:active,
 .btn-fb.active,
 .open > .dropdown-toggle.btn-fb {
   color: #fff;
-  background-color: #294273;
-  border-color: #263e6c;
+  background-color: #2b4e7a;
+  border-color: #284973;
 }
 .btn-fb:active:hover,
 .btn-fb.active:hover,
@@ -3452,8 +3454,8 @@ fieldset[disabled] .btn-danger.focus {
 .btn-fb.active.focus,
 .open > .dropdown-toggle.btn-fb.focus {
   color: #fff;
-  background-color: #1f3359;
-  border-color: #15223b;
+  background-color: #223d60;
+  border-color: #172a42;
 }
 .btn-fb:active,
 .btn-fb.active,
@@ -3469,11 +3471,11 @@ fieldset[disabled] .btn-fb:focus,
 .btn-fb.disabled.focus,
 .btn-fb[disabled].focus,
 fieldset[disabled] .btn-fb.focus {
-  background-color: #365899;
-  border-color: #365899;
+  background-color: #3866a0;
+  border-color: #3866a0;
 }
 .btn-fb .badge {
-  color: #365899;
+  color: #3866a0;
   background-color: #fff;
 }
 .btn-auth {
