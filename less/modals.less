@@ -23,6 +23,7 @@
   left: 0;
   z-index: @zindex-modal;
   -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
 
   // Prevent Chrome on Windows from adding a focus outline. For details, see
   // https://github.com/twbs/bootstrap/pull/10951.
@@ -78,6 +79,7 @@
 // Top section of the modal w/ title and dismiss
 .modal-header {
   padding: @modal-title-padding;
+  padding-bottom: 0;
   border-bottom: 1px solid @modal-header-border-color;
   &:extend(.clearfix all);
 }
@@ -90,18 +92,23 @@
 .modal-title {
   margin: 0;
   line-height: @modal-title-line-height;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 // Modal body
 // Where all modal content resides (sibling of .modal-header and .modal-footer)
 .modal-body {
   position: relative;
+  line-height: 1.5;
   padding: @modal-inner-padding;
 }
 
 // Footer (for actions)
 .modal-footer {
   padding: @modal-inner-padding;
+  padding-top: 0;
   text-align: right; // right align buttons
   border-top: 1px solid @modal-footer-border-color;
   &:extend(.clearfix all); // clear it in case folks use .pull-* classes on buttons

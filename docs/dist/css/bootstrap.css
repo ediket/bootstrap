@@ -6015,6 +6015,7 @@ button.close {
   display: none;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
   outline: 0;
 }
 .modal.fade .modal-dialog {
@@ -6072,6 +6073,7 @@ button.close {
 }
 .modal-header {
   padding: 30px;
+  padding-bottom: 0;
   border-bottom: 1px solid transparent;
 }
 .modal-header .close {
@@ -6079,14 +6081,19 @@ button.close {
 }
 .modal-title {
   margin: 0;
+  font-size: 28px;
+  font-weight: bold;
   line-height: 1.42857143;
+  text-align: center;
 }
 .modal-body {
   position: relative;
   padding: 30px;
+  line-height: 1.5;
 }
 .modal-footer {
   padding: 30px;
+  padding-top: 0;
   text-align: right;
   border-top: 1px solid transparent;
 }
