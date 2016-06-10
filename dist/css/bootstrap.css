@@ -2914,6 +2914,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
+  font-size: 12px;
   color: #737373;
 }
 @media (min-width: 768px) {
