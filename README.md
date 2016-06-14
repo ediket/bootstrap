@@ -10,6 +10,7 @@ Bootstrap uses <a href="http://gruntjs.com">Grunt</a> for its build system, with
 To install Grunt, you must **first [download and install node.js](https://nodejs.org/download/)** (which includes npm). npm stands for [node packaged modules](https://www.npmjs.com/) and is a way to manage development dependencies through node.js.
 
 Then, from the command line:
+
 1. Install `grunt-cli` globally with `npm install -g grunt-cli`.
 1. Navigate to the root `/bootstrap/` directory, then run `npm install`. npm will look at the `package.json` file and automatically install the necessary local dependencies listed there.
 
