@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "name": "editstrap",
+  "description": "The most popular front-end framework, forked for Ediket.",
   "version": "3.3.6",
   "keywords": [
     "css",
@@ -11,8 +11,8 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
-  "author": "Twitter, Inc.",
+  "homepage": "https://ediket.com",
+  "author": "Ediket",
   "scripts": {
     "change-version": "node grunt/change-version.js",
     "shrinkwrap": "npm shrinkwrap --dev && mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json",
