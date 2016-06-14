@@ -50,6 +50,15 @@
     <label for="input-@brand-danger">@brand-danger</label>
     <input class="form-control" id="input-@brand-danger" type="text" value="#d9534f" data-var="@brand-danger"/>
   </div>
+  <div class="col-xs-4">
+    <label for="input-@color-black">@color-black</label>
+    <input class="form-control" id="input-@color-black" type="text" value="#2D2D2D" data-var="@color-black"/>
+  </div>
+  <div class="clearfix"></div>
+  <div class="col-xs-4">
+    <label for="input-@color-light-gray">@color-light-gray</label>
+    <input class="form-control" id="input-@color-light-gray" type="text" value="#E3E3E3" data-var="@color-light-gray"/>
+  </div>
 </div>
 <h2 id="scaffolding">Scaffolding</h2>
 <p>Settings for some of the most global styles.</p>
@@ -199,7 +208,7 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@padding-base-horizontal">@padding-base-horizontal</label>
-    <input class="form-control" id="input-@padding-base-horizontal" type="text" value="18px" data-var="@padding-base-horizontal"/>
+    <input class="form-control" id="input-@padding-base-horizontal" type="text" value="10px" data-var="@padding-base-horizontal"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@padding-large-vertical">@padding-large-vertical</label>
@@ -441,16 +450,16 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-padding-base-vertical">@btn-padding-base-vertical</label>
-    <input class="form-control" id="input-@btn-padding-base-vertical" type="text" value="(@padding-base-vertical - 2)" data-var="@btn-padding-base-vertical"/>
+    <input class="form-control" id="input-@btn-padding-base-vertical" type="text" value="(@padding-base-vertical + 1)" data-var="@btn-padding-base-vertical"/>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-padding-base-horizontal">@btn-padding-base-horizontal</label>
-    <input class="form-control" id="input-@btn-padding-base-horizontal" type="text" value="(@padding-base-horizontal - 2)" data-var="@btn-padding-base-horizontal"/>
+    <input class="form-control" id="input-@btn-padding-base-horizontal" type="text" value="(@padding-base-horizontal + 6)" data-var="@btn-padding-base-horizontal"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-font-size-base">@btn-font-size-base</label>
-    <input class="form-control" id="input-@btn-font-size-base" type="text" value="(@font-size-base - 2)" data-var="@btn-font-size-base"/>
+    <input class="form-control" id="input-@btn-font-size-base" type="text" value="(@font-size-base - 1)" data-var="@btn-font-size-base"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-line-height-base">@btn-line-height-base</label>
@@ -479,7 +488,7 @@
 <div class="row">
   <div class="col-xs-4">
     <label for="input-@input-font-size-base">@input-font-size-base</label>
-    <input class="form-control" id="input-@input-font-size-base" type="text" value="(@font-size-base - 2)" data-var="@input-font-size-base"/>
+    <input class="form-control" id="input-@input-font-size-base" type="text" value="(@font-size-base - 1)" data-var="@input-font-size-base"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@input-font-size-large">@input-font-size-large</label>
@@ -502,13 +511,13 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@input-color">@input-color</label>
-    <input class="form-control" id="input-@input-color" type="text" aria-describedby="help-block-@input-color" value="@gray" data-var="@input-color"/>
+    <input class="form-control" id="input-@input-color" type="text" aria-describedby="help-block-@input-color" value="@color-black" data-var="@input-color"/>
     <p class="help-block" id="help-block-@input-color">Text color for <code>&lt;input&gt;</code>s</p>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@input-border">@input-border</label>
-    <input class="form-control" id="input-@input-border" type="text" aria-describedby="help-block-@input-border" value="#ccc" data-var="@input-border"/>
+    <input class="form-control" id="input-@input-border" type="text" aria-describedby="help-block-@input-border" value="@color-light-gray" data-var="@input-border"/>
     <p class="help-block" id="help-block-@input-border"><code>&lt;input&gt;</code> border color</p>
   </div>
   <div class="col-xs-4">
@@ -540,7 +549,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@input-height-base">@input-height-base</label>
-    <input class="form-control" id="input-@input-height-base" type="text" aria-describedby="help-block-@input-height-base" value="(@line-height-computed + (@padding-base-vertical * 2) - 4)" data-var="@input-height-base"/>
+    <input class="form-control" id="input-@input-height-base" type="text" aria-describedby="help-block-@input-height-base" value="(@line-height-computed + (@padding-base-vertical * 2) - 3)" data-var="@input-height-base"/>
     <p class="help-block" id="help-block-@input-height-base">Default <code>.form-control</code> height</p>
   </div>
   <div class="col-xs-4">
