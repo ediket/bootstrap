@@ -92,7 +92,7 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@link-color">@link-color</label>
-    <input class="form-control" id="input-@link-color" type="text" aria-describedby="help-block-@link-color" value="@brand-primary" data-var="@link-color"/>
+    <input class="form-control" id="input-@link-color" type="text" aria-describedby="help-block-@link-color" value="darken(#428bca, 6.5%)" data-var="@link-color"/>
     <p class="help-block" id="help-block-@link-color">Global textual link color.</p>
   </div>
   <div class="clearfix"></div>
@@ -105,6 +105,16 @@
     <label for="input-@link-hover-decoration">@link-hover-decoration</label>
     <input class="form-control" id="input-@link-hover-decoration" type="text" aria-describedby="help-block-@link-hover-decoration" value="underline" data-var="@link-hover-decoration"/>
     <p class="help-block" id="help-block-@link-hover-decoration">Link hover decoration.</p>
+  </div>
+  <div class="col-xs-4">
+    <label for="input-@back-link-color">@back-link-color</label>
+    <input class="form-control" id="input-@back-link-color" type="text" aria-describedby="help-block-@back-link-color" value="@brand-primary" data-var="@back-link-color"/>
+    <p class="help-block" id="help-block-@back-link-color">Back links have different color in Ediket</p>
+  </div>
+  <div class="clearfix"></div>
+  <div class="col-xs-4">
+    <label for="input-@back-link-hover-color">@back-link-hover-color</label>
+    <input class="form-control" id="input-@back-link-hover-color" type="text" value="darken(@back-link-color, 15%)" data-var="@back-link-hover-color"/>
   </div>
 </div>
 <h2 id="typography">Typography</h2>
@@ -581,10 +591,6 @@
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
-    <label for="input-@input-padding-base-horizontal">@input-padding-base-horizontal</label>
-    <input class="form-control" id="input-@input-padding-base-horizontal" type="text" value="(@padding-base-horizontal + 8)" data-var="@input-padding-base-horizontal"/>
-  </div>
-  <div class="col-xs-4">
     <label for="input-@form-group-margin-bottom">@form-group-margin-bottom</label>
     <input class="form-control" id="input-@form-group-margin-bottom" type="text" aria-describedby="help-block-@form-group-margin-bottom" value="15px" data-var="@form-group-margin-bottom"/>
     <p class="help-block" id="help-block-@form-group-margin-bottom"><code>.form-group</code> margin</p>
@@ -593,11 +599,11 @@
     <label for="input-@form-help-font-size">@form-help-font-size</label>
     <input class="form-control" id="input-@form-help-font-size" type="text" value="(@font-size-base - 3)" data-var="@form-help-font-size"/>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@legend-color">@legend-color</label>
     <input class="form-control" id="input-@legend-color" type="text" value="@gray-dark" data-var="@legend-color"/>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@legend-border-color">@legend-border-color</label>
     <input class="form-control" id="input-@legend-border-color" type="text" value="#e5e5e5" data-var="@legend-border-color"/>
@@ -607,12 +613,12 @@
     <input class="form-control" id="input-@input-group-addon-bg" type="text" aria-describedby="help-block-@input-group-addon-bg" value="@gray-lighter" data-var="@input-group-addon-bg"/>
     <p class="help-block" id="help-block-@input-group-addon-bg">Background color for textual input addons</p>
   </div>
-  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@input-group-addon-border-color">@input-group-addon-border-color</label>
     <input class="form-control" id="input-@input-group-addon-border-color" type="text" aria-describedby="help-block-@input-group-addon-border-color" value="@input-border" data-var="@input-group-addon-border-color"/>
     <p class="help-block" id="help-block-@input-group-addon-border-color">Border color for textual input addons</p>
   </div>
+  <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@cursor-disabled">@cursor-disabled</label>
     <input class="form-control" id="input-@cursor-disabled" type="text" aria-describedby="help-block-@cursor-disabled" value="not-allowed" data-var="@cursor-disabled"/>
