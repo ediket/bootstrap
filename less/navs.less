@@ -120,7 +120,12 @@
 
     // Links rendered as pills
     > a {
-      border-radius: @nav-pills-border-radius;
+      color: @nav-pills-link-color;
+      &:hover,
+      &:focus {
+        color: @nav-pills-active-link-hover-color;
+        background-color: @nav-pills-backgroundColor;
+      }
     }
     + li {
       margin-left: 2px;
@@ -132,7 +137,7 @@
       &:hover,
       &:focus {
         color: @nav-pills-active-link-hover-color;
-        background-color: @nav-pills-active-link-hover-bg;
+        border-bottom: 5px solid @nav-pills-active-link-hover-border-bottom-color;
       }
     }
   }
