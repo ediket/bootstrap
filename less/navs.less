@@ -115,6 +115,10 @@
 // Pills
 // -------------------------
 .nav-pills {
+  border: @nav-pills-border-color 1px solid;
+  background-color: @nav-pills-backgroundColor;
+  border-radius: @nav-pills-border-radius;
+
   > li {
     float: left;
 
@@ -124,7 +128,7 @@
       &:hover,
       &:focus {
         color: @nav-pills-active-link-hover-color;
-        background-color: @nav-pills-backgroundColor;
+        background-color: @nav-pills-link-backgroundColor;
       }
     }
     + li {
