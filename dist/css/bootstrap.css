@@ -4239,11 +4239,21 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-bottom-color: #fff;
   }
 }
+.nav-pills {
+  background-color: #fff;
+  border: #e3e3e3 1px solid;
+  border-radius: 2px;
+}
 .nav-pills > li {
   float: left;
 }
 .nav-pills > li > a {
-  border-radius: 2px;
+  color: #a6a6a6;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  color: #2d2d2d;
+  background-color: #fff;
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -4251,8 +4261,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #e24e4d;
+  color: #2d2d2d;
+  border-bottom: 5px solid #a6a6a6;
 }
 .nav-stacked > li {
   float: none;
