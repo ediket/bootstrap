@@ -125,10 +125,17 @@
     // Links rendered as pills
     > a {
       color: @nav-pills-link-color;
+      padding: 13px 30px 0;
       &:hover,
       &:focus {
         color: @nav-pills-active-link-hover-color;
         background-color: @nav-pills-link-backgroundColor;
+      }
+      &:after {
+        content: "";
+        display: block;
+        height: 13px;
+        border-bottom: 4px solid transparent;
       }
     }
     + li {
@@ -141,7 +148,9 @@
       &:hover,
       &:focus {
         color: @nav-pills-active-link-hover-color;
-        border-bottom: 5px solid @nav-pills-active-link-hover-border-bottom-color;
+        &:after {
+          border-color: @color-dark-gray;
+        }
       }
     }
   }
