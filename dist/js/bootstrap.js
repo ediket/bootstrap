@@ -1,6 +1,6 @@
 /*!
  * Bootstrap v3.3.6 (https://ediket.com)
- * Copyright 2011-2016 Ediket
+ * Copyright 2011-2017 Ediket
  * Licensed under the MIT license
  */
 
